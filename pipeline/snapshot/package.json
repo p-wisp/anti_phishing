@@ -1,0 +1,9 @@
+{
+  "name": "snapshot-worker",
+  "version": "0.1.0",
+  "description": "Headless browser worker for capturing page HTML and screenshots",
+  "type": "module",
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}

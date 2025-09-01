@@ -1,0 +1,28 @@
+# Node dependencies
+node_modules/
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# Jupyter checkpoints
+*.ipynb_checkpoints
+
+# Log files
+*.log
+
+# Data outputs
+data/feeds/
+data/snapshots/
+data/processed/
+data/models/
+
+# Docker artifacts
+*.log
+.pytest_cache/
+
+# VS Code settings
+.vscode/

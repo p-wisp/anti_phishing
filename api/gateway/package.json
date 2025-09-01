@@ -1,0 +1,14 @@
+{
+  "name": "gateway",
+  "version": "0.1.0",
+  "description": "API gateway for Anti‑Phishing Guard",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {}
+}

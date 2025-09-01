@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Anti-Phishing Guard",
+  "version": "0.1.0",
+  "description": "Analyse URLs and warn about potential phishing pages.",
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "permissions": ["declarativeNetRequest", "storage", "scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_title": "Anti-Phishing Guard"
+  }
+}
